@@ -1,0 +1,259 @@
+/*Portfolio Template Styles*/
+/*Global Styles*/
+
+/*
+Primary Color - #457371
+2nd #6EFF00
+3rd #0DBAFF
+4th #82E89C
+*/
+
+body, html{
+  margin:0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: adler;
+}
+
+/*Header Styles*/
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #457371;
+}
+
+.logo {
+  width: 400px;
+  height: 100%;
+  float: left;
+}
+
+.logo h1 {
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.menu {
+  height: 100%;
+  width: 400px;
+  float: right;
+  font-family: adler;
+}
+
+.menu ul{
+  position: relative;
+  top: 27px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+/*Banner STyles*/
+#banner{
+  height: 300px;
+  width: 100%;
+  background: url("../img/wolves2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#banner h1 {
+  text-align: center;
+  padding-top:90px;
+  font-size:35px;
+  font-family: adler;
+  /* color: #fff; */
+}
+
+.bounce {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+
+/*Skills Styling*/
+#skills {
+  height: 350px;
+  width:100%;
+  background-color: #457371;
+  padding-top: 45px;
+}
+
+.skills-container {
+  height: 75%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#skills article {
+  width: 25%;
+  height: 100%;
+  background-color: #82E89C;
+  display: inline-block;
+  margin: 0px 22px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+#skills article h1{
+  text-align: center;
+}
+
+/*About Styles*/
+#about {
+  width: 100%;
+  padding: 45px 0px;
+  background-color: #457371;
+  display: inline-flex;
+}
+
+.img-box {
+  height: 400px;
+  width: 25%;
+  float: left;
+  background-color: #99ff99;
+}
+
+.img-container {
+  height: 300px;
+  width: 240px;
+  margin-left: 55px;
+  margin-top: 50px;
+}
+
+.about-info {
+  height: 400px;
+  width: 75%;
+  float: left;
+  background-color: #82E89C;
+}
+
+#about img {
+  height: 100%;
+  border-radius: 100%;
+}
+
+.about-content {
+  height: 300px;
+  width: 800px;
+  border: 1px dashed #333;
+  margin-top: 40px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+
+#about h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#about p {
+  padding: 0px 5px;
+  text-align: justify;
+}
+
+/* Contact Form */
+
+#contact {
+  width: 100%;
+  padding: 25px 0px;
+  display: inline-block;
+  background: url("http://s32.postimg.org/5kdbrqn90/Silk.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#contact h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.form-box {
+  height:300px;
+  width: 500px;
+  margin: auto;
+  margin: 0 auto;
+  background-color: rgba (0,0,1);
+  padding: 30px;
+}
+
+#contact input {
+  height: 40px;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+#contact textarea {
+  height: 125px;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+#contact button {
+  height: 35px;
+  width: 115px;
+  background-color: #82E89C;
+}
+
+#contact button:hover {
+  background-color: #6EFF00;
+}
+
+/* Footer STyles */
+footer {
+  height: 150px;
+  width:100%;
+  background-color: #457371;
+  clear: both;
+}
+
+.copyright p{
+  margin: 0;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.sm-icons {
+  width: 210px;
+  height: 50px;
+  margin: 0 auto;
+}
+ .icon {
+   height: 50px;
+   width: 50px;
+   background-color: #0DBAFF;
+   float: left;
+   margin: 0px 10px;
+   border-radius: 100%;
+ }
+
+.icon i{
+  font-size: 2em;
+  color: #333;
+  padding: 10px;
+}
